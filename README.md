@@ -1,6 +1,10 @@
 # Powershell-Snippets
 Various Bits of powershell I created for doing work stuff.
 
+**Query-disabled.ps1**
+
+Finds accounts disabled in the last 24 hours with a extensionattribute set.
+
 **CIPC-Remote_install.ps1**
 
 Copies and installs the Cisco IP Communicator softphone to a client and runs the MSI installer.
