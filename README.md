@@ -1,6 +1,11 @@
 # Powershell-Snippets
 Various Bits of powershell I created for doing work stuff.
 
+**Get-ComputerDescription.ps1**
+
+What does this do?
+Get-Computerdescription takes a list of computernames and scans the c:\users directory for the most recently used profile which is normally named after a samaccountname. After that, it will do a get-aduser on that samccount name, pulling various bits of info on the user.  Info is then put into a CSV which can later be used with Set-adcomputer -description $description to fill in the computers description.
+
 **Query-disabled.ps1**
 
 Finds accounts disabled in the last 24 hours with a extensionattribute set.
