@@ -1,4 +1,4 @@
-#Author robert.cortese@va.gov
+#Author robert.m.cortese
 #What does this do?
 #Get-Computerdescription takes a list of computernames and scans the c:\users directory for the most recently used profile
 #which is normally named after a samaccountname. After that, it will do a get-aduser on that samccount name, pulling
